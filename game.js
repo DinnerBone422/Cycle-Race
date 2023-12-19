@@ -32,7 +32,7 @@ function preload(){
 function setup(){ 
   //create The Canvas, Path, GameOver Sign, Group's For The Diffrent Cyclists
   canvasW = windowWidth/1.5;
-  createCanvas(canvasW,300);
+  var canvas = createCanvas(canvasW,300);
   canvas.parent('Game');
 	rectMode(CENTER);
 
